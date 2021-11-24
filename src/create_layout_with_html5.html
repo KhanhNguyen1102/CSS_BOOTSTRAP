@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo layout với html và css</title>
+    <style>
+        #header {
+            background-color: red;
+            height: 100px;
+        }
+
+        #nav {
+            background-color: deepskyblue;
+            height: 100px;
+            margin: 10px 0px ;
+        }
+        #main{
+            height: 300px;
+        }
+        .box {
+            height: 300px;
+            width: 69%;
+            float: left;
+            margin-right: 1%;
+        }
+        #section {
+            background-color: orange;
+            height: 145px;
+            margin-bottom: 10px;
+        }
+        .content {
+            background-color: #7bf110;
+            height: 145px;
+        }
+
+
+
+        #aside {
+            background-color: yellow;
+            height: 300px;
+            width: 30%;
+            float: left;
+        }
+
+        #footer {
+            background-color: hotpink;
+            height: 100px;
+            clear: both;
+            margin-top:20px;
+
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    Đây là header
+</div>
+<div id="nav">
+    đây là nav
+</div>
+<div id="main">
+    <div class="box">
+        <div id="section" class="content">
+            đây là section
+        </div>
+        <div class="content">
+            đây là article
+        </div>
+    </div>
+    <div id="aside">
+        đây là aside
+    </div>
+</div>
+<div id="footer">
+    đây là footer
+</div>
+</body>
+</html>
